@@ -12,7 +12,7 @@ function closeModal(event) {
 }
 
 const modal = document.getElementById('modal')
-
+modal.style.display = 'none'
 document.getElementById('open-modal').addEventListener('click', openModal)
 
 document
